@@ -1,0 +1,56 @@
+unit testelocalizacao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, JvExStdCtrls, JvMemo,
+  IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient, IdHTTP,
+  Vcl.OleCtrls, SHDocVw, IdIOHandler, IdIOHandlerSocket, IdIOHandlerStack,
+  IdSSL, IdSSLOpenSSL;
+
+type
+  TForm1 = class(TForm)
+    IdHTTP1: TIdHTTP;
+    memo: TJvMemo;
+    Button1: TButton;
+    Id_HandlerSocket: TIdSSLIOHandlerSocketOpenSSL;
+    edEnderecoIP: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+ appdir : string;
+begin
+ appdir := ExtractFilePath( Application.ExeName );
+ memo.Lines.Clear;
+
+      IdHTTP1.Request.BasicAuthentication := False;
+      IdHTTP1.Request.UserAgent := 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0';
+      Id_HandlerSocket := TIdSSLIOHandlerSocketOpenSSL.Create( IdHTTP1 );
+
+      Id_HandlerSocket.SSLOptions.Mode := sslmClient;
+      Id_HandlerSocket.SSLOptions.Method := sslvSSLv23;
+      IdHTTP1.IOHandler := Id_HandlerSocket;
+      memo.lines.add(IdHTTP1.get('https://tools.keycdn.com/geo.json?host=177.158.200.162'));
+
+
+
+
+end;
+
+end.

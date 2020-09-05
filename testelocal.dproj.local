@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/03/31 01:51:27.000.653,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 02:02:43.000.359,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 02:10:22.000.011,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 10:28:25.000.155,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 10:28:50.000.717,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/31 10:32:52.000.050,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/02 12:40:36.000.499,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/08 16:44:56.000.157,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/08 16:45:06.000.121,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/08 16:45:53.000.535,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/14 22:30:45.000.594,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/01 19:01:04.000.300,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/02 15:25:36.000.083,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/30 01:27:51.000.971,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/04 20:19:31.000.742,=C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/04 20:43:58.000.755,C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Joao\Desktop\teste\testelocalizacao.pas</Transaction>
+    <Transaction>2020/09/04 20:43:58.000.755,C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Joao\Desktop\teste\testelocalizacao.dfm</Transaction>
+    <Transaction>2020/09/04 20:44:39.000.378,C:\Users\Joao\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Joao\Desktop\teste\testelocal.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
